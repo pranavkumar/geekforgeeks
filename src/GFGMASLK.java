@@ -44,7 +44,7 @@ public class GFGMASLK {
         int last = 0;
 
         float max_avg = avg;
-        int max_at = Integer.MIN_VALUE;
+
 
         for (int i = k; k < n; k++) {
             float delta = (arr[k] - arr[last]) / k;
@@ -53,7 +53,7 @@ public class GFGMASLK {
             last++;
             if (avg > max_avg) {
                 max_avg = avg;
-                max_at = last;
+
             }
         }
 
